@@ -6,7 +6,7 @@ import patoolib
 
 in_folder = '/path/to/archives'  # input folder
 out_folder = '/path/to/'  # output folder
-os.chdir(in_folder)  # change directory to input folder
+os.chdir(in_folder)  # changes directory to input folder
 
 types = ['rar', 'tar.gz', 'zip']  # archive types
 
