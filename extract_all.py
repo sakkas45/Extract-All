@@ -4,8 +4,8 @@ import os
 import glob
 import patoolib
 
-in_folder = '/Users/sakkas/Desktop/oop_hw/CENG_102/'  # input folder
-out_folder = '/Users/sakkas/Desktop/oop_hw/unzipped/'  # output folder
+in_folder = '/path/to/archives'  # input folder
+out_folder = '/path/to/'  # output folder
 os.chdir(in_folder)  # change directory to input folder
 
 types = ['rar', 'tar.gz', 'zip']  # archive types
