@@ -6,6 +6,10 @@ If archive names and their contents are bad named, script creates folders for ea
 
 In my case('ABC ABC_...rar'), I used name and surname('ABC ABC').
 
+
+Note: Patool is required. You can install terminal via ```pip install patool``` or you can get check from https://github.com/wummel/patool.
+
+```python
 #-*-coding: utf-8-*-
 __author__ = 'sakkas45'
 import os
@@ -27,3 +31,4 @@ for f in files:
     if not os.path.exists(out_dir): # if directory not exist, creates directory
         os.makedirs(out_dir)
     patoolib.extract_archive(f, outdir=out_dir) # extracts archives to desired directory
+```
