@@ -1,6 +1,6 @@
 Extract-All
 ===========
-This script extracts all data to desired directory.
+Script extracts all archives from input directory to desired directory.
 
 If archive names and their contents are badly named, script creates folders for each archives and extract there.
 
