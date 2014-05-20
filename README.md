@@ -2,9 +2,9 @@ Extract-All
 ===========
 This script extracts all data to desired directory.
 
-If archive names and their contents are bad named, script creates folders for each archives and seperate their datas.
+If archive names and their contents are badly named, script creates folders for each archives and extract there.
 
-In my case('ABC ABC_...rar'), I used name and surname('ABC ABC').
+In my case('ABC ABC_...rar'), I used name and surname('ABC ABC') for folder names.
 
 
 Note: Patool is required. You can install terminal via ```pip install patool``` or you can get check from https://github.com/wummel/patool.
